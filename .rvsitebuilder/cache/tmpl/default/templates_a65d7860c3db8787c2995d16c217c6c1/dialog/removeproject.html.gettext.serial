@@ -1,0 +1,20 @@
+a:6:{i:0;s:61:"modal: true,
+closeOnEscape :true,
+width: 600,
+buttons:{
+    "";i:1;s:105:"": function() {
+        jQuery.sitebuilder.removeProject.doRemove("#removeProject-conmirm");
+    },
+    "";i:2;s:84:"": function() {
+        jQuery('#removeProject-conmirm').rvsDialog('close');
+    }
+}";i:3;s:37:"closeOnEscape :false,
+buttons:{
+    "";i:4;s:254:"": function() {
+        jQuery('#removeProject-success').rvsDialog('close');
+    }
+},
+close: function() {
+    jQuery("#removeProject-wait").rvsDialog('open', {});
+    jQuery.sitebuilder.Log.logMessage("Close", LOG_PRIORITY.DEBUG);
+    window.location = '";i:5;s:20:"closeOnEscape :false";}

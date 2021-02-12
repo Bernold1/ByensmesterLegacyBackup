@@ -1,0 +1,9 @@
+a:8:{i:0;s:5:"moseX";i:1;s:11:"image width";i:2;s:13:"jQuery("#navS";i:3;s:35:"").ready(function(){
+ jQuery("#navS";i:4;s:107:"").attr({"class":"activeme"})
+
+ jQuery.sitebuilder.sitebuilder.basicSwitchTab("#tableShortcut","#trShortCut";i:5;s:21:"");
+});
+jQuery("#navS";i:6;s:97:"").click(function(){
+ jQuery.sitebuilder.sitebuilder.basicSwitchTab("#tableShortcut","#trShortCut";i:7;s:121:"");
+jQuery.sitebuilder.sitebuilder.basicSwitchClass({"id":"#nav","defaultClass":"jqTabMain","findClass":"activeme"});
+});";}

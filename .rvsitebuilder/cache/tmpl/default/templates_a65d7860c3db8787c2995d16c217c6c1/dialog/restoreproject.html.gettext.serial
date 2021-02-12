@@ -1,0 +1,54 @@
+a:14:{i:0;s:61:"modal: true,
+closeOnEscape :true,
+width: 600,
+buttons:{
+    "";i:1;s:453:"": function() {
+        jQuery.sitebuilder.restoreProject.doRestore("#frm-restore-project");  
+        jQuery('#restore-project-nextstep').find('#message').html("");
+        jQuery('#restore-project-success-form').find('#message').html("");
+        jQuery('#restore-project-warning').find('#message').html("");
+        jQuery('#restore-project-error').find('#message').html("");
+        jQuery('#restore-project-upload').rvsDialog('close');
+    },
+    "";i:2;s:85:"": function() {
+        jQuery('#restore-project-upload').rvsDialog('close');
+    }
+}";i:3;s:45:"modal: true,
+closeOnEscape :false,
+width: 600";i:4;s:58:"modal: false,
+closeOnEscape :true,
+width: 600,
+buttons:{
+"";i:5;s:102:"": function() {
+jQuery.sitebuilder.restoreProjectDA.uploadToDirectAdmin('#frmUpReStore');
+    },
+    "";i:6;s:64:"": function() {
+        jQuery(this).rvsDialog('close');
+    }
+}";i:7;s:45:"modal: true,
+closeOnEscape :true,
+width: 600,";i:8;s:44:"modal: true,
+closeOnEscape :true,
+width: 600";i:10;s:177:"": function() {
+        jQuery.sitebuilder.restoreProject.doRestore("#restore-project-warning-form");
+        jQuery('#restore-project-warning').rvsDialog('close');
+    },
+    "";i:11;s:230:"": function() {
+    	jQuery.sitebuilder.restoreProject.clearTmp("#restore-project-warning-form");
+    	jQuery('#restore-project-nextstep').rvsDialog('close');	
+        jQuery('#restore-project-warning').rvsDialog('close');
+    }
+}";i:13;s:190:"": function() {
+        jQuery.sitebuilder.restoreProject.genNewId("#restore-project-gennewid-form", "1");
+        jQuery('#restore-project-warning-confirm').rvsDialog('close');
+    },
+    "";i:14;s:190:"": function() {
+        jQuery.sitebuilder.restoreProject.genNewId("#restore-project-gennewid-form", "0");
+        jQuery('#restore-project-warning-confirm').rvsDialog('close');
+    },
+    "";i:15;s:239:"": function() {
+    	jQuery.sitebuilder.restoreProject.clearTmp("#restore-project-gennewid-form");
+    	jQuery('#restore-project-nextstep').rvsDialog('close');	
+        jQuery('#restore-project-warning-confirm').rvsDialog('close');
+    }
+}";}

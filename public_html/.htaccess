@@ -1,0 +1,11 @@
+#Downgrade to PHP 5.6 (Danhost) - remove if you want newer and faster
+#AddType application/x-httpd-php-old .php
+#Default cPanel indexes (Danhost)
+#DirectoryIndex index.html.var index.htm index.html index.shtml index.xhtml index.wml index.perl index.pl index.plx index.ppl index.cgi index.jsp index.js index.jp index.php4 index.php3 index.php index.phtml default.htm default.html home.htm index.php5 Default.html Default.htm home.html
+
+
+
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^/?(.*) https://%{HTTP_HOST}/$1 [R,L]
+Header always set Content-Security-Policy "upgrade-insecure-requests;"

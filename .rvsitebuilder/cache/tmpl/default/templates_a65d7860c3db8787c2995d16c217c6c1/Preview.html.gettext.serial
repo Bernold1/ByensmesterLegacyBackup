@@ -1,0 +1,8 @@
+a:3:{i:0;s:11:"useSlogan =";i:1;s:19:";
+	    useCompany =";i:2;s:385:";
+	    parent.document.getElementById('rvMoveLogo').disabled = false;
+	    parent.document.getElementById('rvMoveCompany').disabled = (useCompany) ? true : false;
+	    parent.document.getElementById('rvMoveSlogan').disabled = (useSlogan) ? true : false;
+	    parent.document.getElementById('setDefaultLayerAll').disabled = false
+	    parent.closeDefaultBorder()
+        setAutoLieff();";}

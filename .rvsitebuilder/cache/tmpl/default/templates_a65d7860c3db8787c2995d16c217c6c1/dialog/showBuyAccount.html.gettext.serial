@@ -1,0 +1,11 @@
+a:3:{i:0;s:61:"modal: true,
+closeOnEscape :true,
+width: 600,
+buttons:{
+    "";i:1;s:77:"": function() {
+	    window.location=jQuery('#urlTryout').val();
+    },
+    "";i:2;s:84:"": function() {
+        jQuery('#showBuyAccount-tryout').rvsDialog('close');
+    }
+}";}

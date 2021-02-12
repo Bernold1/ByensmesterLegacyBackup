@@ -1,0 +1,31 @@
+a:10:{i:0;s:61:"modal: true,
+closeOnEscape :true,
+width: 600,
+buttons:{
+    "";i:1;s:161:"": function() {
+        jQuery(this).rvsDialog('close');
+        jQuery.sitebuilder.backupProject.doBackup("#backup-project-confirm-form","backup");
+    },
+    "";i:2;s:85:"": function() {
+        jQuery('#backup-project-confirm').rvsDialog('close');
+    }
+}";i:3;s:44:"modal: true,
+closeOnEscape :true,
+width: 600";i:4;s:12:"&nbsp;&nbsp;";i:5;s:58:"modal: true,
+closeOnEscape :true,
+width: 600,
+buttons:{
+	"";i:6;s:85:"": function() {
+        jQuery('#backup-project-success').rvsDialog('close');
+    }
+}";i:9;s:83:"": function() {
+        jQuery('#backup-project-error').rvsDialog('close');
+    }
+}";i:12;s:177:"": function() {
+        jQuery('#backup-project-warning').rvsDialog('close');
+        jQuery.sitebuilder.backupProject.doBackup("#backup-project-warning","backup");
+    },
+    "";i:13;s:85:"": function() {
+        jQuery('#backup-project-warning').rvsDialog('close');
+    }
+}";}

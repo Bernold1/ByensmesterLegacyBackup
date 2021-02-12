@@ -1,0 +1,21 @@
+a:7:{i:0;s:36:"closeOnEscape :true,
+buttons:{
+    "";i:1;s:97:"": function() {
+  jQuery.sitebuilder.createProject.changeWebLange("#changLangForm");
+    },
+    "";i:2;s:76:"": function() {
+        jQuery('#changLangForm').rvsDialog('close');
+    }
+}";i:4;s:64:"": function() {
+        jQuery(this).rvsDialog('close');
+    }
+}";i:5;s:69:"modal: true,
+            closeOnEscape :false,
+            buttons:{}";i:6;s:58:"modal: false,
+closeOnEscape :true,
+width: 600,
+buttons:{
+"";i:7;s:103:"": function() {
+        jQuery.sitebuilder.createProjectDA.doUploadLogo('#frmUploadLogo');
+    },
+    "";}

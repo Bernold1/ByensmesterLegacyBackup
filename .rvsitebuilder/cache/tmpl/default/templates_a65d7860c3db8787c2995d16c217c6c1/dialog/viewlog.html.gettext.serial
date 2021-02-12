@@ -1,0 +1,15 @@
+a:6:{i:0;s:50:"modal: false,
+closeOnEscape :true,
+buttons:{
+    "";i:1;s:104:"": function() {
+        jQuery.sitebuilder.userViewLog.Configulation.cmdOk("#viewlogForm");
+    },
+    "";i:2;s:74:"": function() {
+        jQuery('#viewlogForm').rvsDialog('close');
+    }
+}";i:3;s:36:"closeOnEscape :true,
+buttons:{
+    "";i:4;s:77:"": function() {
+        jQuery("#viewlogSuccess").rvsDialog('close');
+    }
+}";i:5;s:59:"Saving "User view log" confugulation has been successfully.";}

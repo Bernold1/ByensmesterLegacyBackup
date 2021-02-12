@@ -1,0 +1,14 @@
+a:4:{i:0;s:33:".actknowledge{
+		display:none;
+	}";i:1;s:61:"modal: true,
+closeOnEscape :true,
+width: 650,
+buttons:{
+    "";i:2;s:98:"": function() {
+
+     jQuery.sitebuilder.actknowledge.actknowledgeNext(jQuery(this));
+    },
+    "";i:3;s:64:"": function() {
+        jQuery(this).rvsDialog('close');
+    }
+}";}

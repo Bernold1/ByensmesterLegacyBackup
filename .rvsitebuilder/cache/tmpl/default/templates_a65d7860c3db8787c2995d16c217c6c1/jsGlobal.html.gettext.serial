@@ -1,0 +1,43 @@
+a:39:{i:0;s:119:"/*
+       Don't delete this javascript comment because flexy print new line by self then get javascript error.
+       '";i:1;s:32:"';
+       */
+var lostWarning = '";i:2;s:21:"';
+var txtConfPre = '";i:3;s:12:"' + "\n" + '";i:4;s:21:"';	
+var msgChLang = '";i:5;s:26:"';
+
+var msgPhotoStatus = '";i:6;s:25:"';
+var msgPhotoUpload = '";i:7;s:27:"';
+var msgPhotoFileName = '";i:8;s:27:"';
+var msgPhotoFileSize = '";i:9;s:25:"';
+
+var rvsPreviewUrl = "";i:10;s:28:"";
+var rvsSelectStyleUrl = "";i:11;s:25:"";
+var rvsCategoryUrl = "";i:12;s:17:"";
+var rvsUrl = "";i:13;s:17:"";
+var rvsMod = "";i:14;s:21:"";
+var rvsWebRoot = "";i:15;s:25:"";
+var rvsWebThemeUrl = "";i:16;s:23:"";
+var rvsThemImage = "";i:17;s:8:"/themes/";i:18;s:37:"/sitebuilder/images/";
+var sessID = "";i:19;s:21:"";
+var rvsloading = '";i:20;s:21:"';
+var msgSuccess = '";i:21;s:20:"';
+var msgCancel = '";i:22;s:24:"';
+var msgPleaseWait = '";i:23;s:28:"';
+var msgDeleteTemplate = '";i:24;s:38:"';
+var msgXmlErrorMemoryAndMaxTime = '";i:25;s:24:"';
+var iFrameWysiwyg = "";i:26;s:61:"/wysiwyg/core/html/iframeSecurity.htm";
+var msgUploadFail = '";i:27;s:52:"';
+var stepWysi = false;
+var buttomMsg = {
+    Ok: '";i:28;s:16:"',
+    Cancel: '";i:29;s:27:"'
+};
+var PUBLIC_IMG_URL = "";i:31;s:45:"/sitebuilder/images/";
+var RVS_AJAX_INDEX = '";i:32;s:27:"';
+//var RVS_AJAX_INDEX = '";i:33;s:68:"/action/sitebuilderAjaxExecute/';
+var RVS_AJAX_INDEX_GALLERY_PRO = "";i:34;s:30:"var UPLOAD_DIRECTADMIN_URL = "";i:35;s:74:"/CMD_FILE_MANAGER";
+var isDirectAdminMode = true;
+var msgErrorIframeDa = '";i:36;s:66:"var isDirectAdminMode = false;
+var UPLOAD_DIRECTADMIN_URL = false;";i:37;s:26:"var SGL_PRODUCTION = true;";i:38;s:27:"var SGL_PRODUCTION = false;";i:39;s:44:"var confirmTRUE = '';
+var confirmFALSE = '';";}

@@ -1,0 +1,290 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-attachment: scroll;
+	background-color: #000000;
+
+/*
+	background-image: url(SYDBYENS%20VVS%20-%20BILLEDER/SydbyensVVS_wrapper_baggrundsbillede.jpg);
+	background-repeat: repeat-x;
+	background-position: left top;
+*/
+
+}
+
+#wrapper {
+	padding: 0px;
+	width: 1055px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	border: 5px;
+	background-color: #000000;
+	background-image: none;
+	background-repeat: no-repeat;
+	font-family: Tahoma, Geneva, sans-serif;
+	border-color: #eeeeee;
+	border-style: solid;
+}
+h1 {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size:18px;
+	color:eeeeee;
+}    
+
+#header {
+	height: 187px;
+	width: 1055px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 5px;
+	border-left-width: 0px;
+	padding-top: 0px;
+	padding-right:0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+	vertical-align: middle;
+	background-color: #000000;
+	background-image: url(Billeder/head_banner.jpg);
+	border-bottom-color: #eeeeee;
+}
+#header   h1 {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	color: #eeeeee;
+	vertical-align: middle;
+}
+
+
+#header   h2 {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 18px;
+	font-style: italic;
+	font-weight: normal;
+	color: #eeeeee;
+	text-decoration: none;
+	line-height: 0px;
+	padding-left: 30px;
+}
+
+
+table {
+	width: 770px;
+}
+#wrapper #indhold table tr td h2 {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 16px;
+	color: #FFF;
+}
+
+
+.optaget {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+	background-color: #FF0000;
+	padding-top: 2px;
+	padding-right: 1px;
+	padding-bottom: 2px;
+	padding-left: 1px;
+	border: 1px solid #999999;
+	width: 52px;
+	text-align: center;
+}
+.blanktabel {
+	padding-top: 2px;
+	padding-right: 1px;
+	padding-bottom: 2px;
+	padding-left: 1px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+	width: 52px;
+	border: 1px solid #FFFFFF;
+	text-align: center;
+}
+.ledig {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	background-color: #00FF00;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 2px;
+	padding-right: 1px;
+	padding-bottom: 2px;
+	padding-left: 1px;
+	border: 1px solid #999999;
+	width: 52px;
+}
+.ugepris {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+	background-color: #CCCCCC;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 2px;
+	padding-right: 1px;
+	padding-bottom: 2px;
+	padding-left: 1px;
+	border: 1px solid #999999;
+	width: 35px;
+}
+/*
+#p a:link {
+	color: #0CC;
+	text-decoration: none;
+}
+#p a:visited {
+    color: #000000;
+		text-decoration: none;
+}
+#p a:hover {
+	color: #0080bd;
+		text-decoration: none;
+}
+#p a:active {
+	color: #232754;
+		text-decoration: none;
+}
+*/
+
+
+#indhold {
+	padding-top: 20px;
+	padding-right: 15px;
+	padding-bottom: 20px;
+	padding-left: 15px;
+	background-color: #000000;
+	float: right;
+	width: 770px;
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #000000;
+	margin: 0px;
+}
+
+#wrapper  #indhold  h1 {
+	font-size: 14px;
+	color: #eeeeee;
+	padding: 0px;
+	margin: 0px;
+}
+
+#wrapper  #indhold  h2 {
+	font-size: 14px;
+	color: #eeeeee;
+	padding: 0px;
+	margin: 0px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: bold;
+}
+
+#menu {
+	float: left;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 0px;
+	padding-left: 15px;
+	width: 220px;
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #aaaaaa;
+	padding-right: 0px;
+}
+#wrapper #menu h2 {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 16px;
+	color: #FFF;
+}
+
+#menu  ul  {
+	text-align: left;
+	list-style-type: none;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 2em;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+#footer {
+	background-color: #000000;
+	width: 1050px;
+	height: auto;
+	clear: both;
+	margin: 0px;
+	padding-top: 8px;
+	padding-right: 0px;
+	padding-bottom: 8px;
+	padding-left: 0px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 10px;
+	text-align: center;
+	color: #555;
+	
+/*
+	background-image: url(SYDBYENS%20VVS%20-%20BILLEDER/baggrund_vand.jpg);
+*/
+
+}
+
+#menu a:link {
+	color: #eeeeee;
+	text-decoration: none;
+}
+#menu a:visited {
+	color: #eeeeee;
+	text-decoration: none;
+}
+#menu a:hover {
+	color: #F60;
+	text-decoration: none;
+}
+#menu a:active {
+	color: #eeeeee;
+	text-decoration: none;
+}
+
+#footer a:link {
+	color: #333;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#footer a:visited {
+	color: #333;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#footer a:hover, a:active {
+	color: #000;
+	text-decoration: none;
+	font-weight: bold;
+}
+p {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #eeeeee;
+}
+
+p a:link {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #0080bd
+}
+
+.style1 {
+	color: #eeeeee
+}

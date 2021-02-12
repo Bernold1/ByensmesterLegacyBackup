@@ -1,0 +1,7 @@
+a:1:{i:0;s:132:"closeOnEscape :true,
+width:800,
+height:555,
+
+doBeforeclose2:function(obj) {
+      jQuery(obj).find("#editSideFrame").remove();
+    }";}

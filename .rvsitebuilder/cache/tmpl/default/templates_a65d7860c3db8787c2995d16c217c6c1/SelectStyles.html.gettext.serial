@@ -1,0 +1,11 @@
+a:3:{i:0;s:332:"jQuery(document).ready(function() {
+    
+       jQuery(".dropdown img.flag").addClass("flagvisibility");
+
+       jQuery(document).bind('click', function(e) {
+            var clicked = jQuery(e.target);
+            if (! clicked.parents().hasClass("dropdown"))
+                jQuery(".dropdown dd ul").hide();
+       });
+	   
+   });";i:1;s:9:"X :&nbsp;";i:4;s:9:"Y :&nbsp;";}

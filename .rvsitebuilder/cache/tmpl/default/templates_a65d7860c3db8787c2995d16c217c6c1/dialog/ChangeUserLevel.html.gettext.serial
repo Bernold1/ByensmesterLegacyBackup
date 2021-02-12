@@ -1,0 +1,24 @@
+a:16:{i:0;s:157:"modal: false,
+			closeOnEscape :true,
+			open:function() {
+			     jQuery.sitebuilder.changeUserLevel.ConfigulationOpenCurrent();
+			},
+			buttons:{
+			    "";i:1;s:156:"": function() {
+				      jQuery(this).rvsDialog('close');
+			          jQuery.sitebuilder.changeUserLevel.Configulation("#userLevel-form");
+			    },
+				"";i:2;s:89:"": function() {
+			          jQuery('#changeUserLevel').rvsDialog('close');
+			    }
+			}";i:3;s:13:"Current User:";i:4;s:6:"Level:";i:5;s:14:"root (Level 1)";i:6;s:18:"reseller (Level 2)";i:7;s:22:"reselleruser (Level 3)";i:8;s:18:"userroot (Level 4)";i:9;s:42:"closeOnEscape :true,
+			buttons:{
+			    "";i:10;s:90:"": function() {
+			        jQuery("#changeLevelSuccess").rvsDialog('close');
+			    }
+			}";i:11;s:47:"Saving change user level has been successfully.";i:12;s:60:"closeOnEscape :true,
+            buttons:{
+                "";i:13;s:115:"": function() {
+                    jQuery("#changeLevelError").rvsDialog('close');
+                }
+            }";i:14;s:31:"Cannot saving change user level";i:15;s:27:"and change permision to 777";}

@@ -1,0 +1,9 @@
+a:2:{i:0;s:63:"closeOnEscape :true,
+width: 700,
+height:"auto",
+buttons:{
+    "";i:1;s:62:"": function() {
+     jQuery(this).rvsDialog('close');
+    }
+
+}";}

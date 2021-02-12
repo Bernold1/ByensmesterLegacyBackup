@@ -1,0 +1,25 @@
+a:7:{i:0;s:47:"closeOnEscape :true,
+width:730,
+buttons:{
+    "";i:1;s:114:"": function() {
+        jQuery(this).rvsDialog('close');
+         document.frmComponent.submit();
+        },
+    "";i:2;s:69:"": function() {
+         jQuery(this).rvsDialog('close');
+        }
+}";i:3;s:12:"&nbsp;&nbsp;";i:5;s:109:"": function() {
+        jQuery(this).rvsDialog('close');
+         document.FrmSide.submit();
+        },
+    "";i:8;s:60:"closeOnEscape :true,
+modal: true,
+width:730,
+buttons:{
+    "";i:9;s:250:"": function() {
+        jQuery(this).rvsDialog('close');
+        jQuery.sitebuilder.wysiwyg.actionAJWysiGet('#wysiwygproForm');
+        WPro[currentWPo.id].statusSaveInlineImg = 'passSave';
+        WPro[currentWPo.name].showDesign();
+        },
+    "";}
